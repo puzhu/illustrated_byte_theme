@@ -5,9 +5,9 @@
     <div class="row align-items-center">
       <div class="col-md-7">
         <h1 class="mb-4 display-2 fw-bold">{{.Title}}</h1>
-        {{ with site.Params.tagline }}<p class="h4 lh-15 font-secondary fw-light text-default">{{ . | markdownify}}</p>
+        {{ with .Params.tagline }}<p class="h4 lh-15 font-secondary fw-light text-default">{{ . | markdownify}}</p>
         {{ end }}
-        {{ with site.Params.social}}
+        {{ with .Params.social }}
         <ul class="list-inline mt-4 social-icons">
           {{ with .facebook }}
           <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-facebook"></i></a></li>
@@ -99,7 +99,7 @@
         </ul>
         {{ end }}
       </div>
-      {{ with site.Params.banner_image}}
+      {{ with .Params.image}}
       <div class="col-md-5 mt-5 mt-md-0">
         <!-- image path -->
         {{ $imagePath:= . }}

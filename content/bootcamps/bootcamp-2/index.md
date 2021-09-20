@@ -1,5 +1,5 @@
 ---
-title: "This Is One Of A Demo Bootcamp 6"
+title: "This Is One Of A Demo Bootcamp 1"
 date: 2021-09-05T12:27:11+06:00 # start date
 lastmod: 2021-10-07T12:27:11+06:00 # End Date
 image: "images/data-distribution.gif"

@@ -45,12 +45,12 @@
   </div>
 </section>
 
-{{ with site.GetPage "bootcamps" }}
+{{ with site.GetPage "testimonials" }}
 <section class="section pb-0">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="fw-normal h4">Testimonials</h2>
+        <h2 class="fw-normal h4">{{.Title}}</h2>
       </div>
     </div>
     <div class="row testimonial-slider">
@@ -92,12 +92,14 @@
     </div>
   </div>
 </section>
+{{ end }}
 
+{{ with site.GetPage "faqs" }}
 <section class="section">
   <div class="container">
     <div class="row masonry-wrapper">
       <div class="col-12">
-        <h2 class="fw-normal h4 mb-4">Frequently Asked Questions</h2>
+        <h2 class="fw-normal h4 mb-4">{{.Title}}</h2>
       </div>
       {{ range $i, $e:= .Params.faqs }}
       <div class="col-md-6 mb-4">
