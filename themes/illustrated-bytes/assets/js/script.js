@@ -70,7 +70,7 @@ $(document).ready(function () {
 	// testimonials slider
 	$('.testimonial-slider').slick({
 		dots: false,
-		infinite: true,
+		infinite: false,
 		speed: 500,
 		autoplay: true,
 		slidesToShow: 3,

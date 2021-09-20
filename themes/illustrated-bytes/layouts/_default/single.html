@@ -20,7 +20,7 @@
             {{ end }}
           </div>
           {{ if .Params.image }}
-          <img loading="lazy" decoding="async" src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 mb-4 rounded">
+          <img loading="lazy" decoding="async" src="{{.RelPermalink}}/{{ .Params.image }}" alt="{{ .Title }}" class="img-fluid w-100 mb-4 rounded">
           {{ end }}
 
           <div class="content">{{.Content}}</div>
