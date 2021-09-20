@@ -1,6 +1,6 @@
 <article class="card">
   {{ if .Params.image }}
-  <img loading="lazy" decoding="async" src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="card-img-top">
+  <img loading="lazy" decoding="async" src="{{.RelPermalink}}/{{ .Params.image }}" alt="{{ .Title }}" class="card-img-top">
   {{ end }}
   <div class="card-body">
     {{ with .Params.tags }}
