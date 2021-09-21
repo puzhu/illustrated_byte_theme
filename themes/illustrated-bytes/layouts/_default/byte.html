@@ -10,6 +10,6 @@
     {{ end }}
     {{ end }}
     <h3 class="card-title h6 "><a class="link-title stretched-link" href="{{.Permalink}}">{{.Title | markdownify}}</a></h3>
-    <p class="card-text">{{ .Summary }}</p>
+    <p class="card-text">{{ .Params.excerpt | default .Summary }}</p>
   </div>
 </article>

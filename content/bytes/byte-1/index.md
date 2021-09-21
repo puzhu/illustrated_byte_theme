@@ -5,6 +5,7 @@ image: "data-distribution.gif"
 # description
 description: "This is meta description"
 tags: ["optimized"]
+excerpt: "I am post excerpt, summary is the default value. if excerpt not availabe"
 draft: false
 ---
 
