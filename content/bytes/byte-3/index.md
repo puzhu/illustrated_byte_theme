@@ -4,7 +4,7 @@ date: 2021-09-05T12:27:11+06:00
 image: "assets/functions_syntax.gif"
 # description
 description: "This is meta description"
-tags: ["optimized"]
+tags: ["programming"]
 draft: false
 ---
 In an earlier [post](https://www.illustratedbytes.com/blog/series_intro_to_r/02-second_post/) we saw how we could save a series of programming commands in a script and then source that script whenever we needed to execute the same sequence without having to type it all out again.

@@ -4,7 +4,7 @@ date: 2021-09-05T12:27:11+06:00
 image: "assets/task_parellelization.gif"
 # description
 description: "This is meta description"
-tags: ["optimized"]
+tags: ["databases"]
 draft: false
 ---
 Almost all distributed analytic databases offer some level of task parallelization by farming out queries and data to multiple nodes. 
