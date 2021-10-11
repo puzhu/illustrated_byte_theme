@@ -4,11 +4,10 @@ date: 2021-09-05T12:27:11+06:00
 image: "assets/continuum.gif"
 # description
 description: "This is meta description"
-tags: ["optimized"]
-excerpt: "I am post excerpt, summary is the default value. if excerpt not availabe"
+tags: ["databases"]
+excerpt: "OLAP vs OLTP.. just add a small note here"
 draft: false
 ---
-
 Traditionally, business activities with databases can be classified into two broad categories - Online Transaction Processing (OLTP) and Online Analytical Processing (OLAP).
 
 Let’s start by understanding the differences between databases that deal with two types of business data -transactional and analytical.
