@@ -26,6 +26,8 @@
           <div class="content">{{.Content}}</div>
         </article>
 
+        {{ partial "social-share.html" . }}
+
         <!-- comments -->
         {{ if .Site.DisqusShortname }}
         <div class="mt-5">
