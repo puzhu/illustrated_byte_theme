@@ -1,5 +1,5 @@
 ---
-title: "Improve performance by reducing data movement over the network"
+title: "OLTP vs OLAP the differences"
 date: 2021-09-05T12:27:11+06:00
 image: "assets/continuum.gif"
 # description
