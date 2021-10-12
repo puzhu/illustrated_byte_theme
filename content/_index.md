@@ -1,12 +1,12 @@
 ---
 title: "Illustrated Bytes"
 image: ""
-tagline: "Creates visual explanations about design, anthropology, and programming."
+tagline: "Bite sized explainers on stuff that I am learning or teaching"
 bio: "Illustrated Bytes is a collection of [notes](/blog/) on data science, productivity and math that I am learning, teaching or thinking about."
 
 social:
   facebook: ""
-  twitter: ""
+  twitter: "https://twitter.com/illustratedbyte"
   instagram: ""
   github: "https://github.com/puzhu"
   linkedin: "https://www.linkedin.com/in/harisubhash/"
